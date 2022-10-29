@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/79b09d3721.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container">
+                <h1 class="movie__heading">Movie<span class="yellow">Mania.</span></h1>
+            </div>
+        </div>
+        <div class="search__container">
+            <div class="search__element">
+                <h3 class="search__heading">Search Moive:</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box"
+                 onkeyup="findMovies()" onclick="findMovies()">
+                <div class="search__list" id="search__list">
+                     <!--<div class="search__list--item">
+                        <div class="search__item--thumbnail">
+                         <img src="./assests/medium-cover.jpg" alt=""> 
+                        </div>
+                        <div class="search__item--info">
+                            <h3 class="title">Guardians of the Galaxy vol. 2</h3>
+                            <p class="year">2017</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="result__container">
+                <div class="result__grid" id="result__grid">
+                    <!--<div class="movie__poster">
+                        <img class="movie__img" src="./assests/medium-cover.jpg" alt="">
+                    </div>
+                    <div class="movie__info">
+                            <h3 class="movie__title">Guardians of the Galaxy vol. 2</h3>
+                            <ul class = "movie__misc--info">
+                                <li class = "year">Year: 2017</li>
+                                <li class = "rated">Ratings: PG-13</li>
+                                <li class = "released">Released: 05 May 2017</li>
+                            </ul>
+                            <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                            <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                            <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                            <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
+                            <p class = "language"><b>Language:</b> English</p>
+                            <p class = "awards"><b><i class="fa-solid fa-award"></i></b> Nominated for 1 Oscar</p>
+                        </div>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
