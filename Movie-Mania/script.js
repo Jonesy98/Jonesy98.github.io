@@ -1,5 +1,5 @@
 // Titles: https://www.omdbapi.com/?s=thor&page=1&apikey=8f2d6708
-// details: http://www.omdbapi.com/?i=tt3896198&apikey=8f2d6708
+// details: https://www.omdbapi.com/?i=tt3896198&apikey=8f2d6708
 
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search__list');
@@ -56,7 +56,7 @@ function loadMovieDetails(){
            // console.log(movie.dataset.id);
            searchList.classList.add('hide-search-list');
            movieSearchBox.value = "";
-           const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=8f2d6708`);
+           const result = await fetch(`https://www.omdbapi.com/?i=${movie.dataset.id}&apikey=8f2d6708`);
            const movieDetails = await result.json();
            //console.log(movieDetails)
            displayMoviesDetails(movieDetails);
