@@ -375,6 +375,7 @@ MODAL
 .modal__languages{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .modal__language{
